@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+body{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 400;
+    color: #bfc3c6;
+}
+a{
+    color: #bfc3c6;
+}
+header{
+    position: relative;
+}
+header::after{
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    background-image: url('../images/bg-header-desktop.png');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+}
+.logo{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+.logo h1{
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: 600;
+    color: #4d545a;
+}
+.hide{
+    display: none;
+}
+.logo p{
+    color: #c0c1c3;
+    width: 550px;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+    line-height: 20px;
+}
+.download{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.ios{
+    background-color: #26bba5;
+    box-shadow: 0px 5px 13px 0px rgba(38,187,165,0.75);
+    padding: 10px 20px ;
+    border-radius: 20px;
+    color: white;
+    font-size: 15px;
+    margin-right: 15px;
+    border-bottom: 2px solid #18a08c;
+}
+.mac{
+    background-color: #6172ff;
+    box-shadow: 1px 5px 13px 0px rgba(97,114,255,0.75);
+    padding: 10px 20px ;
+    border-radius: 20px;
+    color: white;
+    font-size: 15px;
+    margin-right: 15px;
+    border-bottom: 2px solid #5261d8;
+    
+}
+.keep{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.keep h2{
+    color: #4c555c;
+    font-size: 25px;
+    font-weight: 600;
+}
+.keep p{
+    color: #b0b4b5;
+    width: 550px;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+    line-height: 20px;
+}
+.computer{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+.comp{
+    margin-left: -30px;
+    width: 700px;
+}
+.comp-text{
+    margin-left: 70px;
+    width: 300px;
+}
+.search{
+    margin-bottom: 30px;
+}
+.search h2{
+    color: #4f5257;
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+}
+.search p{
+    font-size: 14px;
+    line-height: 20px;
+
+}
+.sync{
+    margin-bottom: 30px;
+}
+.sync h2{
+    color: #4f5257;
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+}
+.sync p{
+    font-size: 14px;
+    line-height: 20px;
+}
+.history h2{
+    color: #4f5257;
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+}
+.history p{
+    font-size: 14px;
+    line-height: 20px;
+}
+.device{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.device h2{
+    font-weight: 600;
+    font-size: 25px;
+    color: #4f5257;
+}
+.device p{
+    width: 550px;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+    line-height: 20px;
+    margin-bottom: 100px;
+}
+.device-img{
+    width: 700px;
+}
+.workflow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.workflow h2{
+    font-weight: 600;
+    font-size: 25px;
+    color: #4f5257;
+}
+.workflow p{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+}
+.icons{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.box{
+    width: 300px;
+    text-align: center;
+}
+.box h2{
+    color: #4f5257;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.box p{
+    font-size: 14px;
+    line-height: 25px;
+}
+.resources{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1000px;
+    margin: 0 auto;
+}
+.resources img{
+    width: 100px;
+}
+.clipboard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.clipboard h2{
+    color: #4f5257;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.clipboard p{
+    width: 550px;
+    font-size: 14px;
+    text-align: center;
+}
+footer{
+    background-color: #f5f6f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    padding: 30px 0px;
+}
+.foot{
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.foot img{
+    width: 50px;
+}
+.menu{
+    width: 400px;
+}
+.menu a{
+    margin-right: 40px;
+    line-height: 30px;
+    text-transform: capitalize;
+}
+.fab{
+    color: #4d565d;
+
+}
+.fa-facebook-square, .fa-twitter{
+    margin-right: 20px;
+}
+.ios:hover{
+    background-color: #5dccbb;
+    border-bottom: 2px solid #59b7a5;
+    transition-duration: 0.5s;
+}
+.mac:hover{
+    background-color: #8896ff;
+    border-bottom: 2px solid #8088dd;
+    transition-duration: 0.5s;
+}
+.menu a:hover{
+    color: #69c5b0;
+    transition-duration: 0.5s;
+}
+.fab:hover{
+    color: #27bba1;
+    transition-duration: 0.5s;
+}
+
+@media only screen and (max-width: 375px){
+    header::after{
+        opacity: 1;
+        background-image: url('../images/bg-header-mobile.png');
+
+    }
+    .logo img{
+        width: 100px ;
+    }
+    .logo h1, p{
+        text-align: center;
+    }
+    .show{
+        display: initial;
+    }
+    .logo p{
+        width: 320px;
+    }
+    .download{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .ios{
+        margin-bottom: 20px;
+        width: 70%;
+        text-align: center;
+    }
+    .mac{
+        width: 70%;
+        text-align: center;
+    }
+    .keep h2, .device h2, .workflow h2, .clipboard h2{
+        width: 300px;
+        text-align: center;
+    }
+    .keep p, .device p, .workflow p, .clipboard p{
+        width: 300px;
+        text-align: center;
+    }
+    .computer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .comp, .device img{
+        width: 300px;
+        margin: 0 auto;
+    }
+    .comp-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px;
+        margin-top: 40px;
+    }
+    .search h2, .sync h2, .history h2{
+        text-align: center;
+    }
+    .icons{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 40px;
+    }
+    .box{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .resources{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+    }
+    .resources img{
+        padding-bottom: 40px;
+    }
+    .foot{
+        flex-direction: column;
+    }
+    .menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .menu a{
+        margin-right: 0px;
+    }
+    .ios, .mac{
+        margin-right: 0px;
+    }
+    
+}
